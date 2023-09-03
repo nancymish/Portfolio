@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 63);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(1, 1, 47);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-size: 20.5px;
+    color: rgb(88, 88, 152)
+}
+
+.left {
+    font-size: 25px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0px;
+}
+.first div {
+    width: 35%;
+}
+
+.div1 {
+    margin: 130px 0px;
+    font-size: 30px;
+
+}
+.div1 .buttons {
+    padding: 30px 0px;
+}
+.div1 .btn {
+    padding:8px;
+    background-color: #0e020e;
+    color: #60602a;
+    border: 1.4px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.about{
+    font-size: 20px;
+    color: rgb(159, 85, 10);
+}
+.name {
+    color: rgba(107, 8, 150, 0.719)
+}
+
+.second {
+    margin: auto;
+    max-width: 80vw;
+    font-size: 20px;
+    height: 500px;
+}
+
+main hr {
+    border: 0;
+    background: #36318d;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.text-grey {
+    color: grey;
+    font-size: 18px;
+}
+
+.box {
+    background: white;
+    width: 80vw;
+    height: 1.4px;
+    margin: 56px 0px;
+    display:flex;
+
+}
+.vertical{
+    width:0.7px;
+    height: 70px;
+    background-color: rgb(212, 209, 209);
+    margin: 0px 100px;
+}
+.img1{
+    position: relative;
+    width:22px;
+    top:-30px;
+    left:-8px
+}
+.para1{
+    position: relative;
+    top: 40px;
+    left: -37px;
+    width: 150px;
+}
+.para2{
+    position: relative;
+    top: 40px;
+    left: -37px;
+    color:gray;
+    font-size: 10px;
+    width: 150px;
+}
+.para3{
+    position: relative;
+    top: 37px;
+    left: -37px;
+    width: 165px;
+    font-size: 17px;
+}
+.para4{
+    position: relative;
+    top: 40px;
+    left: -37px;
+    color:gray;
+    font-size: 10px;
+    width: 150px;
+}
+.img2{
+    position: relative;
+    width: 35px;
+    height: 30px;
+    top:-30px;
+    left:-13px
+}
+footer{
+    background-color: rgb(10, 1, 44);
+
+}
+.footer{
+     display: flex;
+     padding:23px 100px;
+     justify-content: space-evenly;
+}
+.footer ul {
+    list-style: none;
+}
+.footer > div {
+     width: 235px;
+}
+footer .text {
+    color: #91869a;
+    padding: 23px 0px;
+    text-align: center;
+}
+.apps a {
+    color: #a5b2a5;
+    padding:10pxpx;
+}
